@@ -17,10 +17,10 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>
 	<bean id="memberDao"
-		class="org.njy.book.chap07.MemberDaoImplUsingSpringJdbc">
+		class="com.njy.book.chap07.MemberDaoImplUsingSpringJdbc">
 		<property name="jdbcTemplate" ref="jdbcTemplate" />
 	</bean>
-	<bean id="memberService" class="org.njy.book.chap07.MemberService">
+	<bean id="memberService" class="com.njy.book.chap07.MemberService">
 		<property name="memberDao" ref="memberDao" />
 	</bean>
 	<!-- p.186 [리스트 8.4]의 구성을 xml-->
