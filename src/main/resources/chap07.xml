@@ -23,7 +23,7 @@
 	<bean id="memberService" class="org.njy.book.chap07.MemberService">
 		<property name="memberDao" ref="memberDao" />
 	</bean>
-	<!-- p.186 [리스트 8.4]의 구성을 xml로 -->
+	<!-- p.186 [리스트 8.4]의 구성을 xml-->
 	<!-- db.properties 파일을 읽는다. -->
 </beans>
 <!--<context:property-placeholder
@@ -41,4 +41,3 @@
 	<bean id="memberService" class="org.njy.book.chap07.MemberService">
 		<property name="memberDao" ref="memberDao" />
 	</bean>  -->
-	
