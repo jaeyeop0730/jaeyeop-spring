@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<context:component-scan base-package="org.njy.book.chap07_t" />
+	<context:component-scan base-package="com.njy.book.chap07_t" />
 	
 	<!-- p.186 [리스트 8.4]의 구성을 xml로 -->
 	<!-- db.properties 파일을 읽는다. -->
